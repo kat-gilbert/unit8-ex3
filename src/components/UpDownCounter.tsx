@@ -3,15 +3,12 @@ import "./Counter.css";
 
 export function UpDownCounter() {
     let [count, setCount] = useState<number>(0);
-
     let upCount = () => {
         setCount(count += 1);
     }
-
     let downCount = () => {
         setCount(count -= 1);
     }
-
     return (
     <div className="Counter">
 
