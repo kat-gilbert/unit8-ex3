@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Counter.css";
 
 export function UpDownCounter() {
     let [count, setCount] = useState<number>(0);
@@ -11,9 +12,8 @@ export function UpDownCounter() {
         setCount(count -= 1);
     }
 
-
     return (
-    <div className="counter">
+    <div className="Counter">
 
         <button onClick={upCount}>Up</button>
         <p>{count}</p>
