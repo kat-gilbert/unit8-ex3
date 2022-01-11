@@ -1,0 +1,13 @@
+.container {
+    border: none;
+    border-radius: 20px;
+    display: inline-block;
+    margin: 50px;
+    padding: 55px;
+    background-color: white;
+
+}
+
+body {
+    background-color: lightgray;
+}
